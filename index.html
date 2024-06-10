@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ice Cream Shop Management</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Ice Cream Shop</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#showcase">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#services">Services</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Showcase -->
+    <header id="showcase" class="bg-primary text-white text-center">
+        <div class="container d-flex align-items-center flex-column">
+            <h1 class="display-4">Ice Cream Shop Management</h1>
+            <p class="lead">Manage Your Ice Cream Shop Efficiently</p>
+            <a href="#features" class="btn btn-outline-light btn-lg mt-4">Learn More</a>
+        </div>
+    </header>
+
+    <!-- Features Section -->
+    <section id="features" class="py-5 bg-image">
+        <div class="container">
+            <h2 class="text-center mb-4 text-white">Features</h2>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 feature-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Inventory Management</h4>
+                            <p class="card-text">Keep track of your stock and manage orders seamlessly.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 feature-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Sales Tracking</h4>
+                            <p class="card-text">Monitor your sales performance with real-time data.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card h-100 feature-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Customer Insights</h4>
+                            <p class="card-text">Understand your customers' preferences and increase your sales.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-5 bg-light bg-image">
+        <div class="container">
+            <h2 class="text-center mb-4 text-white">Our Services</h2>
+            <div class="row mt-4">
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 service-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Custom Flavors</h4>
+                            <p class="card-text">Create and manage unique ice cream flavors tailored to your customers' tastes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 service-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Order Tracking</h4>
+                            <p class="card-text">Track customer orders from the point of sale to delivery.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 service-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Supplier Management</h4>
+                            <p class="card-text">Manage relationships with suppliers and streamline inventory restocking.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <div class="card h-100 service-card">
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Promotions & Discounts</h4>
+                            <p class="card-text">Create promotional campaigns and manage discount programs.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <footer id="contact" class="py-5 bg-secondary text-white" style="background: url('bg.jpg') no-repeat center center/cover;">
+        <div class="container" >
+            <div class="row">
+                <div class="col-lg-6 mb-4">
+                    <h4>Contact Us</h4>
+                    <p>We'd love to hear from you! Send us a message using the form below, or email us at <a href="mailto:info@icecreamshop.com" class="text-white">info@icecreamshop.com</a>.</p>
+                    <form>
+                        <div class="form-group">
+                            <label for="name">Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter your name">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" id="email" placeholder="Enter your email">
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Message</label>
+                            <textarea class="form-control" id="message" rows="3" placeholder="Enter your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Submit</button>
+                    </form>
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <h4>Location</h4>
+                    <p>Miyapur<br>Hyderabad City, near metro station</p>
+                </div>
+            </div>
+            <div style="color: aliceblue; text-align: center;"><p>Copyright &#169; 2024 magnumservices. All Rights Reserved.</p></div>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
